@@ -25,6 +25,11 @@ body {
 	#titleline {
 		margin: 0 0 10px 28px;
 	}
+
+	#headerimg {
+		margin-top: 0;
+	}
+
 	#header h2 {
 		clear: both;
 		margin: 0 auto;
@@ -96,4 +101,3 @@ body {
 	background: none;
         font-size: 10px;
 }
-

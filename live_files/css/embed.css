@@ -34,7 +34,7 @@ body {
     letter-spacing: normal;
 }
 .popupbox {
-    background: #ffec80;
+    background: #ffc9b1;
     font-family: Arial, sans-serif;
     color: black;
     position: absolute;
@@ -52,7 +52,7 @@ body {
 .popupbox > img {
     padding-bottom: 10px;
     display: none;
-    
+
 
 }
 .boxhed {
@@ -150,7 +150,7 @@ float: left;
 	cursor:pointer;
 	font-size:.9em;
 	border-top-width: thin;
-	border-top-style: solid; 
+	border-top-style: solid;
 	border-top-color: #CC9900;
 }
 
@@ -160,7 +160,7 @@ float: left;
 
 #embed {
 	color: #1959A6;
-	cursor:pointer; 
+	cursor:pointer;
 	text-align: center;
 	margin-top: 4px;
 }
@@ -173,7 +173,7 @@ float: left;
 
 #printline {
 	color: #1959A6;
-	cursor:pointer; 
+	cursor:pointer;
 	text-align: center;
 	text-decoration: non;
 	margin-top: 4px;
@@ -206,7 +206,7 @@ float: left;
 	-webkit-text-size-adjust: none;
 	 -webkit-user-select: none; -moz-user-select: none;
 	 }
-	
+
 #meta-container{
 
 }
@@ -216,7 +216,7 @@ h2 {font-size:16px; margin:0 0 6px 0;}
 
 	#pane_5, #pane_6 { -webkit-user-select:text; }
 	*:focus { outline-style :none; -webkit-tap-highlight-color: rgba(0,0,0,0);}
-	
+
 #headertitle {
     font-size: 18px;
     color: #333;
@@ -227,14 +227,15 @@ h2 {font-size:16px; margin:0 0 6px 0;}
     display: table-cell;
     vertical-align: middle;
     float: left;
-    
+
 }
-    
+
 
 #headerimg
 {
     display: table-cell;
     vertical-align: middle;
+    margin-top: 2px;
     float: left;
 }
 #header{
@@ -249,7 +250,7 @@ h2 {font-size:16px; margin:0 0 6px 0;}
     border-bottom: 1px solid #ccc;
 }
 #headertext {
-    
+
     font-size: 14px;
     font-family: Georgia, serif;
     line-height: 20px;
@@ -276,9 +277,9 @@ footer{
 
 /*	h1,h2,h1 a{display:inline-block;font-size:13px;vertical-align:middle;}
 	h1{margin:0 10px 0 0;padding:0;}*/
-	
+
 	img{margin:0;padding:0;border:none;}
-	
+
 	div.InfoWindow{font-family:Arial;font-size:90%;}
 	div.InfoWindow div.Address{font-size:80%;font-style:italic;margin-bottom:.9em;}
 	div.InfoWindow div.Title{font-weight:bold;}
@@ -286,4 +287,3 @@ footer{
 	#LoadingDiv{-moz-opacity:.25;-khtml-opacity:.25;background-color:Black;opacity:.25;width:100%;z-index:1000;position:absolute;top:27px;bottom:44px;left: 0;right:0;}
 	#LoadingDiv p{height:32px;margin:0;position:absolute;top:50%;vertical-align:middle;width:100%;}
 	#LoadingDiv img{display:block;height:32px;margin:0 auto;position:relative;top:-50%;width:32px;}
-
