@@ -15,8 +15,12 @@
 <script src="js/miso.ds.deps.ie.min.0.2.1.js"></script>
 <script src="js/jquery-ui-1.8.23.custom.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/buttons.js" type="text/javascript" chartset="utf-8"></script>
+<script src="https://s3.amazonaws.com/data.minnpost/js/responsive-iframe-0.0.3/jquery.responsiveiframe.js"></script>
 
 <script>
+
+var ri = responsiveIframe();
+ri.allowResponsiveEmbedding();
 
 function embedBox() {
     var $embedbox = $("#embedbox");

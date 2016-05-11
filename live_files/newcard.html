@@ -4,6 +4,8 @@
 <title>MinnPost #mnleg bingo</title>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="https://s3.amazonaws.com/data.minnpost/projects/minnpost-mnleg-bingo/live_files/js/jquery.url.min.js"></script> 
+<script src="https://s3.amazonaws.com/data.minnpost/js/responsive-iframe-0.0.3/jquery.responsiveiframe.js"></script>
+
 
 </head>
 <body>
@@ -12,6 +14,12 @@
 <script type="text/javascript">
 var key = $.url.param("key");
 $('#theframe').attr('src', 'https://s3.amazonaws.com/data.minnpost/projects/minnpost-mnleg-bingo/live_files/embed.html?key=' + key);
+
+  ;(function($){          
+      $(function(){
+        $('#theframe').responsiveIframe({ xdomain: '*'});
+      });        
+  })(jQuery);
 
 </script>
 </body>
