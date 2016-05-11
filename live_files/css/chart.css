@@ -48,6 +48,7 @@ body {
 	    display: table;
 	    background-color: #fff;
 	    background-image: url(../img/piece_bg.png);
+			background-size: 100%;
 	    text-transform: uppercase;
 		cursor: pointer;
 		}
@@ -55,12 +56,15 @@ body {
 	}
 	.free {
 	    background-image: url(../img/piece_free.png);
+			background-size: 100%;
 	}
 	.chip {
 	    background-image: url(../img/piece_chip.png);
+			background-size: 100%;
 	}
 	.freechip {
 	    background-image: url(../img/piece_free_chip.png);
+			background-size: 100%;
 	}
 	.card-text {
 	    margin: auto;
@@ -70,8 +74,6 @@ body {
 	    padding: 4px;
 	}
 
-
-
 #bingo-footer {
 	width: 584px;
 	height: 75px;
@@ -80,9 +82,37 @@ body {
     position: relative;
 	overflow: hidden;
 	background: url(../img/bottombingo600x75.png) no-repeat -10px 0;
+	text-align: center;
 }
-#yell-button {
-    position: absolute;
-    left: 140px;
-    bottom: 19px;
+
+
+@media (max-width: 600px) {
+
+	#header h2 {
+		width: 350px;
+		background-size: 100%;
+	}
+
+	#chart-container {
+			width: 350px;
+			height: 353px;
+	}
+
+	.card {
+			width: 65px;
+			height: 65px;
+			font-size: 6px;
+			line-height: 6px;
+			margin-left: 2px;
+			margin-bottom: 2px;
+	}
+
+	#bingo-footer {
+		width: 100%;
+		background-size: 100%;
+	}
+
+	#yell-button {
+		width: 200px;
+	}
 }
