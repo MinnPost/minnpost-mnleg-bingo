@@ -10,16 +10,16 @@
 </head>
 <body>
 
-<iframe id="theframe" src="https://s3.amazonaws.com/data.minnpost/projects/minnpost-mnleg-bingo/live_files/embed.html" width="620px" height="785px" scrolling="no" frameborder="0"></iframe>
+<iframe id="theframe" src="embed.html" style="width:100%; height:735px;" scrolling="no" frameborder="0"></iframe>
 <script type="text/javascript">
 var key = $.url.param("key");
-$('#theframe').attr('src', 'https://s3.amazonaws.com/data.minnpost/projects/minnpost-mnleg-bingo/live_files/embed.html?key=' + key);
+$('#theframe').attr('src', 'embed.html?key=' + key);
 
-  ;(function($){          
-      $(function(){
-        $('#theframe').responsiveIframe({ xdomain: '*'});
-      });        
-  })(jQuery);
+;(function($){          
+    $(function(){
+      $('#theframe').responsiveIframe({ xdomain: '*'});
+    });        
+})(jQuery);
 
 </script>
 </body>
