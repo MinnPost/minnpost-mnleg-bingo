@@ -12,6 +12,7 @@ fully responsive, but there is an alternative size that mostly seems to work on 
 (not extensively tested!). We used [NPR’s Responsive IFrame](http://npr.github.io/responsiveiframe/) to (probably?) make this all work
 in an iframe.
 
+--------------------------------------------------------------------------------
 
 Bingo
 =====
