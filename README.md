@@ -1,3 +1,18 @@
+Minnesota Legislature Bingo
+===============================
+A bingo game to coincide with the final days of the Minnesota Legislature, featuring
+all of lawmakers favorite cliches.
+
+This was built on top of [WNYC’s Interactive Bingo Card Generator](https://github.com/smelendez/bingo) (the README for which is included below). Starting there, we customized the look as described below,
+swapping images to be more relevant to the Minnesota Legislature and with MinnPost branding. And of
+course created our own spreadsheet of Minnesota legislative debate favorite words.
+
+We also made some changes to `chart.css` to make the cards useable on mobile. The cards are not
+fully responsive, but there is an alternative size that mostly seems to work on mobile devices
+(not extensively tested!). We used [NPR’s Responsive IFrame](http://npr.github.io/responsiveiframe/) to (probably?) make this all work
+in an iframe.
+
+
 Bingo
 =====
 
@@ -18,7 +33,7 @@ Customizing the Look
 
 - In the live_files/img directory, replace "header_logo_black.png" with whatever you want to appear in the upper left of the bingo card. (Or you can delete it altogether and remove the line referencing it from printcard.html and embed.html.)
 
-- In live_files/js/this-chart.js, on line 147, change the "hashtags=debatebingo" parameter in the URL to "hashtags=emmysbingo" or whatever hashtag you want to use for the event. In the live_files/embed.html on line 156, update the hashtag #debatebingo to your new hashtag for this card. 
+- In live_files/js/this-chart.js, on line 147, change the "hashtags=debatebingo" parameter in the URL to "hashtags=emmysbingo" or whatever hashtag you want to use for the event. In the live_files/embed.html on line 156, update the hashtag #debatebingo to your new hashtag for this card.
 
 Setting Up the Tiles
 --------------------
@@ -30,7 +45,7 @@ The columns should all be the same number of terms (so same number of items on e
 Also note that if any item between the commas HAS a comma or a quote, you need to surround that item in quote marks. Like:
 
    "Obama's phone rings, has annoying Marimba sound"
-   
+
 And if you're actually using a quote in the item, represent those with double-double quotes, like this:
 
    "Obama says ""Romneycare"""
@@ -55,4 +70,3 @@ DISCLAIMER: We wrote this code very quickly, and want to share it quickly, too. 
 and can't take responsibility for it failing or causing any problems for you or your systems.
 
 Let us know if you use or improve on it! We're interested. Tweet @datanews, send us a pull request, or email jkeefe@wnyc.org.
-
